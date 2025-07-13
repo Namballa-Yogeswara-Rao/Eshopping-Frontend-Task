@@ -1,0 +1,39 @@
+.theme-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+  .theme-card.selected {
+    border-color: #0d6efd;
+  }
+  .theme-card img {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  .scroll-box {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .btn-apply {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .btn-checkmark {
+    background-color: #198754;
+    color: white;
+    border: none;
+  }
+  #previewImage {
+    height: 180px;
+    object-fit: cover;
+  }
